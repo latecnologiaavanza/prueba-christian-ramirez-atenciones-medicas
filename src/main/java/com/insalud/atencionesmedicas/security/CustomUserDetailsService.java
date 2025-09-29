@@ -30,10 +30,8 @@ public class CustomUserDetailsService implements UserDetailsService {
         Usuario usuario = usuarioRepository.findByUsuario(username)
                 .orElseThrow(() -> new UsernameNotFoundException("Usuario no encontrado"));
 
-        // Obtenemos la persona asociada al usuario
         Persona persona = usuario.getPersona();
 
-        // Determinamos el rol según si es paciente o empleado
         Rol rol;
         if (pacienteRepository.existsByPersona(persona)) {
             rol = Rol.PACIENTE;
