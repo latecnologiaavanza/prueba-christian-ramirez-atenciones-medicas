@@ -1,4 +1,4 @@
-# Prueba Técnica Backend - Christian Ramirez
+# Prueba Técnica - Christian Ramirez
 
 Repositorio: [prueba-christian-ramirez-atenciones-medicas](https://github.com/latecnologiaavanza/prueba-christian-ramirez-atenciones-medicas/tree/main)
 
